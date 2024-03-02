@@ -108,6 +108,7 @@ body {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 15px 25px -5px;
   z-index: 1;
 }
+
 .slider .imgSlider {
   width: 100%;
   display: flex;
@@ -139,6 +140,7 @@ body {
   height: 100vh;
   width: 100%;
 }
+
 .popularAnimeContainer {
   padding: 4rem 2rem;
 }
@@ -297,7 +299,7 @@ body {
     transition: 1s ease;
   }
   p {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -315,7 +317,7 @@ body {
     transition: 1s ease;
   }
   p {
-    font-size: 0.4rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -351,7 +353,7 @@ body {
     transition: 1s ease;
   }
   p {
-    font-size: 0.2rem;
+    font-size: 0.7rem;
   }
   .popularAnimeContainer {
     padding: 4rem 2rem;
@@ -362,9 +364,10 @@ body {
     margin: 0 0rem;
     position: relative;
     top: 9rem;
+    display: none;
   }
   .slider {
-    transform: translate(3%, 13%);
+    transform: translate(-3%, 13%);
     height: initial;
   }
   .popularAnime h1 {
@@ -377,7 +380,7 @@ body {
 
 @media (max-width: 300px) {
   .slider {
-    transform: translate(-1%, 13%);
+    transform: translate(-7%, 13%);
     height: initial;
   }
 }
