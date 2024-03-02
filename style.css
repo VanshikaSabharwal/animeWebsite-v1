@@ -373,11 +373,11 @@ body {
   .headLine {
     display: initial;
     position: absolute;
-    top: 29rem;
+    top: 25rem;
     margin: 0 4rem;
   }
   .headLine h3 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   .headLine p {
@@ -436,11 +436,23 @@ body {
     margin-top: 2rem;
     margin-left: 1rem;
   }
+  .headLine {
+    display: initial;
+    position: absolute;
+    top: 23rem;
+    margin: 0 4rem;
+  }
 }
 
 @media (max-width: 300px) {
   .slider {
     transform: translate(-7%, 13%);
     height: initial;
+  }
+  .headLine {
+    display: initial;
+    position: absolute;
+    top: 19rem;
+    margin: 0 4rem;
   }
 }
