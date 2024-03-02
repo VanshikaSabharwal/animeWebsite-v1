@@ -205,7 +205,9 @@ body {
   text-align: center;
   margin-top: 2rem;
 }
-
+.headLine {
+  display: none;
+}
 /* animations  */
 @keyframes slider {
   0% {
@@ -280,6 +282,40 @@ body {
     width: 87%;
   }
 }
+@media (min-width: 650px) and (max-width: 845px) {
+  .headLine {
+    display: initial;
+    position: absolute;
+    top: 36rem;
+    margin: 0 4rem;
+  }
+  .headLine h3 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .headLine p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+}
+@media (min-width: 845px) and (max-width: 1000px) {
+  .headLine {
+    display: initial;
+    position: absolute;
+    top: 44rem;
+    margin: 0 4rem;
+  }
+  .headLine h3 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .headLine p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2rem;
+  }
+}
 @media (min-width: 730px) and (max-width: 1495px) {
   .slider {
     height: initial;
@@ -334,6 +370,21 @@ body {
     background: #a19aac;
     transition: 1s ease;
   }
+  .headLine {
+    display: initial;
+    position: absolute;
+    top: 29rem;
+    margin: 0 4rem;
+  }
+  .headLine h3 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .headLine p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -344,7 +395,7 @@ body {
     padding: 10px;
     width: 64%;
     flex-basis: 45%;
-    height: 380px;
+    height: 350px;
     border-radius: 16px;
     overflow: hidden;
     position: relative;
@@ -359,6 +410,15 @@ body {
     padding: 4rem 2rem;
     margin-left: 1rem;
     margin-right: -1rem;
+  }
+  .popularAnime
+    .popularAnimeContainer
+    .popularAnimeList
+    .animeImgContainer
+    img {
+    width: 100%;
+    height: 150px;
+    border-radius: 12px;
   }
   .arrow {
     margin: 0 0rem;
