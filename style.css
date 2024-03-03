@@ -15,11 +15,9 @@ body {
   background-color: #08040e66;
   display: flex;
   justify-content: space-around;
-  border-top-left-radius: 400px;
   width: 98%;
   z-index: 1000;
   height: 4rem;
-  border-bottom-right-radius: 400px;
   position: fixed;
   margin-top: 2rem;
   margin-left: 1rem;
@@ -207,6 +205,13 @@ body {
 }
 .headLine {
   display: none;
+}
+.animeQuoteDetail .animeName {
+  font-size: 1.7rem;
+  text-align: center;
+}
+.animeQuoteDetail .animeCharacter {
+  text-align: end;
 }
 /* animations  */
 @keyframes slider {
@@ -456,3 +461,5 @@ body {
     margin: 0 4rem;
   }
 }
+
+/* 630px -675px ke bich mai ek brealpoint hai */
